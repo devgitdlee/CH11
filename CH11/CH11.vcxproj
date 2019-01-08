@@ -18,6 +18,24 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="11-1-연습문제3.c" />
+    <ClCompile Include="11-1-연습문제4.c" />
+    <ClCompile Include="11-1.c" />
+    <ClCompile Include="11-10.c" />
+    <ClCompile Include="11-11.c" />
+    <ClCompile Include="11-2.c" />
+    <ClCompile Include="11-3.c" />
+    <ClCompile Include="11-4.c" />
+    <ClCompile Include="11-5.c" />
+    <ClCompile Include="11-6.c" />
+    <ClCompile Include="11-7.c" />
+    <ClCompile Include="11-8.c" />
+    <ClCompile Include="11-9.c" />
+    <ClCompile Include="11-도전1.c" />
+    <ClCompile Include="11-도전2.c" />
+    <ClCompile Include="11-도전3.c" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{790611C9-92D8-4F0F-B731-5D91148EDE5D}</ProjectGuid>
@@ -138,8 +156,6 @@
       <SubSystem>Console</SubSystem>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
