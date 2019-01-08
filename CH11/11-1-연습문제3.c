@@ -3,12 +3,13 @@
 
 int main(void) {
 	int ch;
-	int cnt = 0;
 	ch = getchar();
-	while (ch != '\n') {
-		if ((ch >= 'a') && (ch <= 'z')) cnt++;
-		ch = getchar();
-	}
-	printf("소문자의 개수 : %d\n", cnt);
+	putchar(ch);
+	/*
+	printf("문자입력:");
+	scanf("%c", &ch);
+
+	printf("입력된 문자:%c", ch);
+	*/
 	return 0;
 }
